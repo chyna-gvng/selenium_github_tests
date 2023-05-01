@@ -1,0 +1,528 @@
+{
+  "id": "aba39bcb-92f8-44f7-ad30-9bb895ecd190",
+  "version": "2.0",
+  "name": "selenium_github_tests",
+  "url": "https://github.com",
+  "tests": [{
+    "id": "cedc384d-8421-40f0-934d-7d7f1247cb7f",
+    "name": "task_1",
+    "commands": [{
+      "id": "8434216f-437a-435e-9488-07ba1fe462dd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23ca0538-33e0-4d55-8e6c-a0c5717e3aba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1278x1008",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4453542-7e83-499a-abcd-4b9b2642d6b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Header-item:nth-child(6) .Header-link",
+      "targets": [
+        ["css=.Header-item:nth-child(6) .Header-link", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8576a082-eeca-41a0-81ce-7570ba1388d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New repository",
+      "targets": [
+        ["linkText=New repository", "linkText"],
+        ["css=.dropdown-menu > .dropdown-item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'New repository')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/new')]", "xpath:href"],
+        ["xpath=//details-menu/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New repository')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e3d717f-6831-4e6f-831a-eaac4644cb1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=repository_name",
+      "targets": [
+        ["id=repository_name", "id"],
+        ["name=repository[name]", "name"],
+        ["css=#repository_name", "css:finder"],
+        ["xpath=//input[@id='repository_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_repository']/div[2]/auto-check/dl/dd/input", "xpath:idRelative"],
+        ["xpath=//dd/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1a2a656-79bd-46d1-ac50-b26ca430b9a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=repository_name",
+      "targets": [
+        ["id=repository_name", "id"],
+        ["name=repository[name]", "name"],
+        ["css=#repository_name", "css:finder"],
+        ["xpath=//input[@id='repository_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_repository']/div[2]/auto-check/dl/dd/input", "xpath:idRelative"],
+        ["xpath=//dd/input", "xpath:position"]
+      ],
+      "value": "selenium_github_tests"
+    }, {
+      "id": "5f559c84-887b-4e18-81da-62245b6bfff9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='new_repository']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create repository')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e06d78c-b202-4a2e-8723-d54066a8abdf",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "31968045-b568-4a68-92dc-705111368694",
+    "name": "task_2",
+    "commands": [{
+      "id": "0093aee3-9c3f-4f53-9d7b-9e01e9391517",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "376af6bf-2004-46f4-8323-53864e7f4173",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1245x1008",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c99702a-ab7a-4dd7-97cd-3868cc188931",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Header-link > .avatar-small",
+      "targets": [
+        ["css=.Header-link > .avatar-small", "css:finder"],
+        ["xpath=(//img[@alt='@NetHunter005'])[2]", "xpath:img"],
+        ["xpath=//summary/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07badc52-f6a1-4e6a-9452-97524efae22e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your repositories",
+      "targets": [
+        ["linkText=Your repositories", "linkText"],
+        ["css=.dropdown-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Your repositories')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/NetHunter005?tab=repositories')]", "xpath:href"],
+        ["xpath=//div[7]/details/details-menu/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Your repositories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4793be4-52eb-4f56-ad6f-3e21f34a18b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=selenium_github_tests",
+      "targets": [
+        ["linkText=selenium_github_tests", "linkText"],
+        ["css=.wb-break-all > a", "css:finder"],
+        ["xpath=//a[contains(text(),'selenium_github_tests')]", "xpath:link"],
+        ["xpath=//div[@id='user-repositories-list']/ul/li/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/NetHunter005/selenium_github_tests')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'selenium_github_tests')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "802d95fa-5a39-4821-b0a9-0b3d5f6f8de2",
+      "comment": "",
+      "command": "click",
+      "target": "id=settings-tab",
+      "targets": [
+        ["id=settings-tab", "id"],
+        ["linkText=Settings", "linkText"],
+        ["css=#settings-tab", "css:finder"],
+        ["xpath=//a[@id='settings-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='repository-container-header']/nav/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/NetHunter005/selenium_github_tests/settings')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd1dc6a-2d60-48ae-8cea-6478a64125e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=rename-field",
+      "targets": [
+        ["id=rename-field", "id"],
+        ["name=new_name", "name"],
+        ["css=#rename-field", "css:finder"],
+        ["xpath=//input[@id='rename-field']", "xpath:attributes"],
+        ["xpath=//div[@id='options_bucket']/form/auto-check/dl/dd/input", "xpath:idRelative"],
+        ["xpath=//dd/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bb9ba42-db0a-4a33-bc53-463b6f9249e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=rename-field",
+      "targets": [
+        ["id=rename-field", "id"],
+        ["name=new_name", "name"],
+        ["css=#rename-field", "css:finder"],
+        ["xpath=//input[@id='rename-field']", "xpath:attributes"],
+        ["xpath=//div[@id='options_bucket']/form/auto-check/dl/dd/input", "xpath:idRelative"],
+        ["xpath=//dd/input", "xpath:position"]
+      ],
+      "value": "selenium_github_tests_rename"
+    }, {
+      "id": "02f7b891-b0a0-4ba6-9246-2bff14c1aea3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-self-end",
+      "targets": [
+        ["css=.flex-self-end", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='options_bucket']/form/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rename')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5ab8c15-accc-4a67-9119-307a5c27aba9",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "01a11e74-7aa6-4804-9bdb-56c6f38ed18b",
+    "name": "task_3",
+    "commands": [{
+      "id": "0a02f00e-5320-4bf1-97c4-8462d08bb34f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97bd1ff9-921a-4f91-931c-93a000007091",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1233x1008",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1084d2e-fbd5-4431-9231-02d883b7f9f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-caret:nth-child(3)",
+      "targets": [
+        ["css=.dropdown-caret:nth-child(3)", "css:finder"],
+        ["xpath=//summary/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d062d028-486e-4266-9683-393aa721502b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your repositories",
+      "targets": [
+        ["linkText=Your repositories", "linkText"],
+        ["css=.dropdown-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Your repositories')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/NetHunter005?tab=repositories')]", "xpath:href"],
+        ["xpath=//div[7]/details/details-menu/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Your repositories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a1ba420-c67f-4030-a9c7-5853967af4a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=selenium_github_tests_rename",
+      "targets": [
+        ["linkText=selenium_github_tests_raname", "linkText"],
+        ["css=.wb-break-all > a", "css:finder"],
+        ["xpath=//a[contains(text(),'selenium_github_tests_raname')]", "xpath:link"],
+        ["xpath=//div[@id='user-repositories-list']/ul/li/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/NetHunter005/selenium_github_tests_raname')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'selenium_github_tests_raname')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d9b143c-ca86-4306-91e8-c634d87f3398",
+      "comment": "",
+      "command": "click",
+      "target": "id=settings-tab",
+      "targets": [
+        ["id=settings-tab", "id"],
+        ["linkText=Settings", "linkText"],
+        ["css=#settings-tab", "css:finder"],
+        ["xpath=//a[@id='settings-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='repository-container-header']/nav/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/NetHunter005/selenium_github_tests_raname/settings')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee956e71-ea22-40d3-a1d1-1f8ff3bcf00c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#item-f8e5ed6b-c12f-4f56-ad4e-8d32e4ed43aa > .ActionListItem-label",
+      "targets": [
+        ["css=#item-f8e5ed6b-c12f-4f56-ad4e-8d32e4ed43aa > .ActionListItem-label", "css:finder"],
+        ["xpath=//button[@id='item-f8e5ed6b-c12f-4f56-ad4e-8d32e4ed43aa']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b80fff3f-fd7a-47c3-a1f5-56f70b782eca",
+      "comment": "",
+      "command": "click",
+      "target": "css=#item-29427bce-4446-4bdd-8790-48a051851536 > .ActionListItem-label",
+      "targets": [
+        ["css=#item-29427bce-4446-4bdd-8790-48a051851536 > .ActionListItem-label", "css:finder"],
+        ["xpath=//a[@id='item-29427bce-4446-4bdd-8790-48a051851536']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[2]/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e5ad039-d768-4d30-af38-369f6de2f637",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FormControl-spacingWrapper:nth-child(3) .FormControl-radio-wrap:nth-child(2) .FormControl-label",
+      "targets": [
+        ["css=.FormControl-spacingWrapper:nth-child(3) .FormControl-radio-wrap:nth-child(2) .FormControl-label", "css:finder"],
+        ["xpath=//turbo-frame[@id='repo-content-turbo-frame']/div/div/div[2]/div/div/actions-policy-form/form/div/div/fieldset/div/div[2]/span/label", "xpath:idRelative"],
+        ["xpath=//div[2]/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Disable actions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e68667-2651-44a9-bcdb-31729b8fed2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FormControl-spacingWrapper:nth-child(3) .Button-label",
+      "targets": [
+        ["css=.FormControl-spacingWrapper:nth-child(3) .Button-label", "css:finder"],
+        ["xpath=//turbo-frame[@id='repo-content-turbo-frame']/div/div/div[2]/div/div/actions-policy-form/form/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e042ddf-d787-4b00-9ea2-a94ed2aac622",
+    "name": "task_4",
+    "commands": [{
+      "id": "22776823-4fe1-430e-96c2-82393f108c80",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b08be7c0-39a4-42be-b446-7369a414972c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1232x1008",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdaf7fc2-a0cb-4947-90db-0dd91c125db5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-feature-preview-indicator-container > .Header-link",
+      "targets": [
+        ["css=.js-feature-preview-indicator-container > .Header-link", "css:finder"],
+        ["xpath=//div[7]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8eeb3f-a9a2-4687-a8a9-c0521a34c22b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your profile",
+      "targets": [
+        ["linkText=Your profile", "linkText"],
+        ["css=.js-feature-preview-indicator-container .dropdown-item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Your profile')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/NetHunter005')])[3]", "xpath:href"],
+        ["xpath=//div[7]/details/details-menu/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Your profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84527e96-b038-46d4-a2a3-d527d7c811d4",
+      "comment": "",
+      "command": "click",
+      "target": "name=button",
+      "targets": [
+        ["name=button", "name"],
+        ["css=.js-profile-editable-edit-button", "css:finder"],
+        ["xpath=//button[@name='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "213ed12d-0c23-4c5d-9c6a-c22a6207d075",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_profile_name",
+      "targets": [
+        ["id=user_profile_name", "id"],
+        ["name=user[profile_name]", "name"],
+        ["css=#user_profile_name", "css:finder"],
+        ["xpath=//input[@id='user_profile_name']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a2ba31-e892-4b6a-9555-8f4303678436",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_profile_name",
+      "targets": [
+        ["id=user_profile_name", "id"],
+        ["name=user[profile_name]", "name"],
+        ["css=#user_profile_name", "css:finder"],
+        ["xpath=//input[@id='user_profile_name']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Net Hunter"
+    }, {
+      "id": "93688a40-a146-4066-b860-767cf9f4ef41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button--primary .Button-label",
+      "targets": [
+        ["css=.Button--primary .Button-label", "css:finder"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6dee620b-1f19-47a9-ba51-de6ce59d7950",
+    "name": "task_5",
+    "commands": [{
+      "id": "1723d2d2-3752-4bc6-b09f-5ebb6d962264",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d523373-7102-464e-af22-660295bdea03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1249x1008",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fae3a68d-eab5-4d07-a1eb-cb7170ece3a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-caret:nth-child(3)",
+      "targets": [
+        ["css=.dropdown-caret:nth-child(3)", "css:finder"],
+        ["xpath=//summary/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "369618df-58a8-4a9a-904d-bf7ceeec3102",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your profile",
+      "targets": [
+        ["linkText=Your profile", "linkText"],
+        ["css=.js-feature-preview-indicator-container .dropdown-item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Your profile')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/NetHunter005')])[3]", "xpath:href"],
+        ["xpath=//div[7]/details/details-menu/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Your profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e3833b4-a0eb-45e8-9c2c-3b0d5382af95",
+      "comment": "",
+      "command": "click",
+      "target": "name=button",
+      "targets": [
+        ["name=button", "name"],
+        ["css=.js-profile-editable-edit-button", "css:finder"],
+        ["xpath=//button[@name='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61c59c2d-0e51-4cee-a5a6-e5149510bd0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_profile_bio",
+      "targets": [
+        ["id=user_profile_bio", "id"],
+        ["name=user[profile_bio]", "name"],
+        ["css=#user_profile_bio", "css:finder"],
+        ["xpath=//textarea[@id='user_profile_bio']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c521c050-da86-4214-a6a5-489f50dccfab",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_profile_bio",
+      "targets": [
+        ["id=user_profile_bio", "id"],
+        ["name=user[profile_bio]", "name"],
+        ["css=#user_profile_bio", "css:finder"],
+        ["xpath=//textarea[@id='user_profile_bio']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "About me"
+    }, {
+      "id": "235a80c0-eeb0-4b0b-b9af-3161052db484",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button--primary .Button-label",
+      "targets": [
+        ["css=.Button--primary .Button-label", "css:finder"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d7e27c59-8a59-4177-b920-e5778a692310",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cedc384d-8421-40f0-934d-7d7f1247cb7f", "31968045-b568-4a68-92dc-705111368694", "01a11e74-7aa6-4804-9bdb-56c6f38ed18b", "0e042ddf-d787-4b00-9ea2-a94ed2aac622", "6dee620b-1f19-47a9-ba51-de6ce59d7950"]
+  }],
+  "urls": ["https://github.com/"],
+  "plugins": []
+}
