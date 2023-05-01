@@ -1,5 +1,5 @@
 # Selenium
-![](https://github.com/chyna-gvng/selenium_github_tests/blob/main/output/output.mp4)
+![](https://github.com/chyna-gvng/selenium_github_tests/blob/main/output/output.gif)
 
 Automate github tasks:
 - Creating a github repository
